@@ -1,0 +1,2 @@
+-- https://qiita.com/TTsurutani/items/26220ac2c184de774658
+-- のsample5.hsから $と.を使う箇所
