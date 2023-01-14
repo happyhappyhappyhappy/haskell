@@ -1,2 +1,6 @@
--- https://qiita.com/TTsurutani/items/26220ac2c184de774658
--- のsample5.hsから $と.を使う箇所
+main :: IO()
+main = do
+    input <- getContents
+    print $ map ( map convI . words ) $ lines input
+convI :: String->Integer
+convI = read
