@@ -1,5 +1,8 @@
 import Prelude
-import Data.List()
+main::IO()
 main = do
-    line1 <- getLine
-    print line1
+    [a,b] <- map (read :: String->Int) . words <$> getLine
+    print a
+    print b
+
+
