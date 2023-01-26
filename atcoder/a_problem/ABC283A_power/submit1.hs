@@ -1,6 +1,6 @@
 main::IO()
-main = do
-    inputStr <- getLine
---    let ans1 = words <$> getLine
-    let ans1 = words inputStr
-    print ans1
+main=do
+    [a,b] <- fmap stoa . words <$> getLine
+    putStrLn $ show (a^b)
+stoa :: String -> Integer
+stoa = read
