@@ -1,0 +1,4 @@
+[ Warn  ] [GHCup-00110] ghc-9.4.8 is already installed; if you really want to reinstall it, you may want to run 'ghcup install ghc --force 9.4.8'
+[ Info  ] GHC 9.4.8 successfully set as default version
+[ Warn  ] [GHCup-00110] cabal-3.10.2.1 is already installed; if you really want to reinstall it, you may want to run 'ghcup install cabal --force 3.10.2.1'
+Downloading the latest package list from hackage.haskell.org
