@@ -4,5 +4,5 @@ main = do
     let ai = read a :: Int
     let bi = read b :: Int
     let outAB = ai * bi :: Integer
-    let outABstr = show outAB :: String
+    let outABstr = show outAB
     putStrLn outABstr
